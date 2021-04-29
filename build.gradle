@@ -13,6 +13,9 @@ targetCompatibility = '1.8'
 repositories {
     mavenCentral()
     maven {
+        url = 'https://repo.aikar.co/content/groups/aikar/'
+    }
+    maven {
         name = 'spigotmc-repo'
         url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
     }
@@ -24,6 +27,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+    compile 'co.aikar:acf-bukkit:0.5.0-SNAPSHOT'
 }
 
 processResources {

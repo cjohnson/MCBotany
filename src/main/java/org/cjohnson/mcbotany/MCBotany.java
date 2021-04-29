@@ -9,7 +9,7 @@ public final class MCBotany extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        logger.info("Starting MCBotany Initialization...");
+        logger.info("Starting MCBotany...");
     }
 
     @Override
