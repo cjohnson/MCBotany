@@ -1,0 +1,9 @@
+name: MCBotany
+version: @version@
+main: org.cjohnson.mcbotany.MCBotany
+api-version: 1.16
+prefix: MCBotany
+depend: [ WorldEdit ]
+authors: [ cjohnson ]
+description: Allow players to select their own plants!
+website: github.com/cjohnson/MCBotany
